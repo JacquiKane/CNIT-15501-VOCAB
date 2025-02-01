@@ -89,6 +89,28 @@ body h1 {
   font-weight: bolder;
 }
 
+.card:hover {
+  scale: 1.05;
+  box-shadow: black 5px 8px 8px;
+}
+
 table {
   border: 1px solid grey;
+}
+
+h1 button {
+  font-size: 34px;
+  background-color: black;
+  color: gold;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+h1 button:hover {
+  background-color: grey;
+  scale: 1.2;
+  box-shadow: #373a36 8px 8px 8px;
+}
+
+button.pointer {
+  cursor: hand;
 }
