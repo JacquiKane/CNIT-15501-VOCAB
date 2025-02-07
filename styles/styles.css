@@ -68,6 +68,7 @@ body h1 {
 .flip-card-front {
   background-color: #c4bfc0;
   font-weight: bolder;
+  font-size:150%;
 }
 
 .flip-card-back {
