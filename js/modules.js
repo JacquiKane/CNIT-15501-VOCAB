@@ -12,8 +12,8 @@ $(document).ready(function () {
       link: ".\\module4\\index.html",
     },
     {
-      title: "Week 5, Under Construction!",
-      link: "#",
+      title: "Week 5, Loops - While Loop, For Loop, Nested Loop",
+      link: ".\\module5\\index.html",
     },
     {
       title: "Week 6, Under Construction!",
