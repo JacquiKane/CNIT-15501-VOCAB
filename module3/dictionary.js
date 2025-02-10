@@ -73,7 +73,7 @@ const dictionary = {
   "Conversion Function":
     "Function that converts the data type of a variable, to another data type, like converting int variable, studentGradYear, to a String, with str(sudentGradYear).",
   "Strongly Typed":
-    "Enforcement of strict rules for mixing data types and variables. Python is stronlly typed.",
+    "Enforcement of strict rules for mixing data types and variables. Python is strongly typed.",
   "Dynamically Typed":
     "Data type of variable is determined at runtime, after an assignment. Python is dynamically typed.",
   Bug: "Problem, typically semantic error, in code. Coined in 1950s after punched paper encoding trapped a moth, and caused the computation to fail!",
