@@ -18,7 +18,7 @@ const dictionary = {
     "Re-running tests to ensure that previously developed and tested software still performs as expected after a change. ",
   "Relational Operators":
     '<ul style="font-size:smaller"><li>Less than →  &lt;<li>Greater than →  &gt;<li>Equal to →  ==<li>Not equal to → !=<li>Less than or equal to → &lt;=<li>Greater than or equal to → &gt;=</ul>',
-  "Control Statement<br>(Structure)":
+  "Control Statement or Structure":
     "Program code that supports specific action in the code, like <i>if, while</i>",
   if: "Control statement that supports branching to specific code blocks<br>if (x &gt; y):<br>&nbsp;&nbsp;print('x &gt; y')",
   "if-else":
