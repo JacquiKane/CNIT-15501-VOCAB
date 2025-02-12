@@ -16,8 +16,8 @@ $(document).ready(function () {
       link: ".\\module5\\index.html",
     },
     {
-      title: "Week 6, Under Construction!",
-      link: "#",
+      title: "Week 6, Functions, Modularizing Program Code",
+      link: ".\\module6\\index.html",
     },
     {
       title: "Week 7, Under Construction!",
