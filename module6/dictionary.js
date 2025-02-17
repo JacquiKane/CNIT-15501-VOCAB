@@ -35,4 +35,10 @@ const dictionary = {
     'specify parameter that argument is for, using name of parameter<p style="font-size:smaller">def compute(p1,p2):<br>&nbsp;....</p>  <table style="font-size:9px; width:25%; border:3;"><tr><td style="border: 1px solid black;">first = 1<br>second=2<br>compute(first, second)</td><td  style="border: 1px solid black;">compute(p2=second, p1=first)</td></tr></table>',
   "default argument":
     'default value if none passed. Last parameter.<p style="font-size:smaller">def compute(p1,p2,p3 = 99):<br>&nbsp;....</p>  <table style="font-size:9px; width:100%; border:3;"><tr><td style="border: 1px solid black;"># p3 is 99<br>first = 1<br>second=2<br>compute(first, second)</td><td  style="border: 1px solid black;"><br># p3 is 88<br>third = 88<br>compute(first, second, third)</td></tr></table>',
+  "pass by value":
+    "passing the <i>value</i> to function; only local changes made to value within function, original value outside function unchanged.",
+  "pass by reference":
+    "passing <i>address</i> of variable to function, any <i>changes made within function, are persisted outside the function</i>.",
+  "pass by object reference":
+    "Variable is passed to function, <i>as a copy</i>.Results in call by value appearance for immutable quantities, call by reference for non-primitives",
 };
