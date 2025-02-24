@@ -2,26 +2,26 @@
 
 $(document).ready(function () {
   const items = [
-    { title: "Week 2, Data Types & Variables", link: ".\\module2\\index.html" },
+    { title: "Data Types & Variables", link: ".\\module2\\index.html" },
     {
-      title: "Week 3, Math Ops and Conditionals",
+      title: "Math Ops and Conditionals",
       link: ".\\module3\\index.html",
     },
     {
-      title: "Week 4, Random Numbers, Boolean Expressions, Loops",
+      title: "Random Numbers, Boolean Expressions, Loops",
       link: ".\\module4\\index.html",
     },
     {
-      title: "Week 5, Loops - While Loop, For Loop, Nested Loop",
+      title: "Loops - While Loop, For Loop, Nested Loop",
       link: ".\\module5\\index.html",
     },
     {
-      title: "Week 6, Functions, Modularizing Program Code",
+      title: "Functions, Modularizing Program Code",
       link: ".\\module6\\index.html",
     },
     {
-      title: "Week 7, Under Construction!",
-      link: "#",
+      title: "Recursion",
+      link: ".\\module_p\\index.html",
     },
     {
       title: "Week 8, Under Construction!",
