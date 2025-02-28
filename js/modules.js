@@ -24,31 +24,31 @@ $(document).ready(function () {
       link: ".\\module_p\\index.html",
     },
     {
-      title: "Week 8, Under Construction!",
+      title: "Lists",
+      link: ".\\module8\\index.html",
+    },
+    {
+      title: "Under Construction!",
       link: "#",
     },
     {
-      title: "Week 9, Under Construction!",
+      title: "Under Construction!",
       link: "#",
     },
     {
-      title: "Week 10, Under Construction!",
+      title: "Under Construction!",
       link: "#",
     },
     {
-      title: "Week 11, Under Construction!",
+      title: "Under Construction!",
       link: "#",
     },
     {
-      title: "Week 12, Under Construction!",
+      title: "Under Construction!",
       link: "#",
     },
     {
-      title: "Week 13, Under Construction!",
-      link: "#",
-    },
-    {
-      title: "Week 14, Under Construction!",
+      title: "Under Construction!",
       link: "#",
     },
   ];
