@@ -5,7 +5,7 @@ const dictionary = {
   "list element":
     'item contained within a list, like<p style="font-size:smaller">pets = ["Mango the Cat", "Buhmie the Bulldog", "Jack the Terrier"]<br>"Mango the Cat" is the first element</p>',
   "create a list":
-    'list instantiated by list class initializer, like<p style="font-size:smaller">names = list()</p>or initialization list, like<p style="font-size:smaller">names = []<br>names = ["Bridget", "Addie", "Helen"]</p>',
+    'list created by <em>list function</em>, like<p style="font-size:smaller">names = list()</p>or initialization list, like<p style="font-size:smaller">names = []<br>names = ["Bridget", "Addie", "Helen"]</p>',
   "list index":
     'list elements accessed by <i>subscript</i>, starts at 0, indicates item position in list, like<p style="font-size:smaller">names = ["Bridget", "Addie", "Helen"]<br>names[0] is "Bridget"</p>',
   "list slicing":
