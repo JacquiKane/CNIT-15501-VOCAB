@@ -5,7 +5,7 @@ const dictionary = {
   "list element":
     'item contained within a list, like<p style="font-size:smaller">pets = ["Mango the Cat", "Buhmie the Bulldog", "Jack the Terrier"]<br>"Mango the Cat" is the first element</p>',
   "create a list":
-    'list created by <em>list function</em>, like<p style="font-size:smaller">names = list()</p>or initialization list, like<p style="font-size:smaller">names = []<br>names = ["Bridget", "Addie", "Helen"]</p>',
+    'list created by list function, like<p style="font-size:smaller">names = list()</p>or initialization list, like<p style="font-size:smaller">names = []<br>names = ["Bridget", "Addie", "Helen"]</p>',
   "list index":
     'list elements accessed by <i>subscript</i>, starts at 0, indicates item position in list, like<p style="font-size:smaller">names = ["Bridget", "Addie", "Helen"]<br>names[0] is "Bridget"</p>',
   "list slicing":
@@ -27,6 +27,8 @@ const dictionary = {
     'reverses the order of the list, like<p style="font-size:smaller">names = ["Mo", "Jo", "Lu"]<br>names.reverse()<br><br>names is ...<br><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">["Lu", "Jo", "Mo"]</span></p>',
   "list method, sort":
     'sorts list, ascending by default, like<p style="font-size:smaller">noms=["Mo","Jo","Lu"]<br>noms.sort()<br>noms is ...<br><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">["Jo","Lu","Mo"]</span><br>noms.sort(reverse=True)<br><br>noms is ...<br><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">["Mo","Lu","Jo"]</span></p>',
+     "list method, count":
+    'returns number of times item appears in list, like<p style="font-size:smaller">nums=[1,2,1,4,1,8]<br>nums.count(1) is 3 ... <br> because 1 appears 3 times in the nums list</p>',
   "list function, len":
     'returns the number of elements in a list, like<p style="font-size:smaller">noms=["Mo","Jo","Lu"]<br>numItems = len(noms)<br>numItems in <br><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">noms</span> is 3</p>',
   "list function, max":
@@ -47,4 +49,16 @@ const dictionary = {
     'takes sequence object, like list, returns <em style = "color: goldenrod">enumerate object</em> <span style="font-size:12px;">(list like object containing tuples, each tuple has index and item)</span>, like,<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">noms=["Mo","Jo"]<br>print(enumerate(noms))<br>&nbsp;<span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">(0,"Mo") (1,"Jo") </span><br></p>',
   "traversing a list, enumerate":
     'way of accessing index and item at same time, like<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">noms=["Mo","Jo"]<br>for pos, name in enumerate(noms):<br>&nbsp;print(pos, name)</p> <p>prints...<br><span style = "font-size: smaller;font-weight:900; font-style: oblique 40deg;color:goldenrod">0 "Mo"<br>1 "Jo"</span></p>',
+    "copy & sort a list, sorted function":
+    'creates new sorted list, based on original,<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">noms=["Mo","Jo", "Lu"]<br>names = sorted(noms)<br> names => ["Jo", "Lu", "Mo"]</span></p> <p><i>noms</i> list not impacted, <i>sorted</i> returns <i>new</i> list',
+    "copy & reverse a list, reversed function":
+    'returns iterator, original list reversed - typecast iterator as list,<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">nums=[1, -1, 9]<br>rev = <em>list</em>(reversed(nums))<br> rev => [9, -1, 1]</span></p> <p><i>nums</i> list unchanged</p>',
+      "concatenating list content":
+    'use list method extend, or overloaded operator, + ,<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">nums=[1, 2]<br>nums += <em>[3,4]</em><br> nums => [1, 2, 3, 4]</span></p> <p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod"><i>nums.extend([5, 6])</i> => [1, 2, 3, 4, 5, 6]</span></p>',
+      "list - modifier":
+    'method, function that changes list, given reference passed as argument<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">def mod(numsList):<br>&nbsp;numsList[0]= 0<br>...<br> nums = [1, 2, 3]</span></p> <p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">mod(nums)<br>...nums => [0, 2, 3]</span></p>',
+     "list - modifier side-effect":
+    'changes to list by modifier<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">def mod(numsList):<br>&nbsp;numsList[0]=0<br>...<br> nums = [1, 2, 3]</span></p> <p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">mod(nums)<br><br>...side-effect, nums => [0, 2, 3]</span></p>',
+         "list - alias":
+    'list is a reference, pointer to memory area, multiple references (aliases) can refer to same list<p style="font-size:smaller"><span style = "font-weight:900; font-style: oblique 40deg;color:goldenrod">nums = [1, 2, 3]<br>numbers = nums</span></p>nums, numbers are aliases</span></p>',
 };
