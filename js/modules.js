@@ -28,29 +28,15 @@ $(document).ready(function () {
       link: ".\\module8\\index.html",
     },
     {
-      title: "Under Construction!",
-      link: "#",
+      title: "File Handling",
+      link: ".\\module9\\index.html",
     },
     {
-      title: "Under Construction!",
+      title: "Under Construction, Exceptions!",
       link: "#",
     },
-    {
-      title: "Under Construction!",
-      link: "#",
-    },
-    {
-      title: "Under Construction!",
-      link: "#",
-    },
-    {
-      title: "Under Construction!",
-      link: "#",
-    },
-    {
-      title: "Under Construction!",
-      link: "#",
-    },
+
+   
   ];
 
   items.forEach((item) => {
