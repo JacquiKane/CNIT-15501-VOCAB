@@ -3,9 +3,9 @@
 const dictionary = {
   "volatile storage": 'computer memory, RAM, represents volatile storage, as the data dissipates when the power source is removed.',
   "permanent storage":
-    'content stored on disk (HDD, SSD) persists for a eriod of time, until the disk media fails! This is considered permanent storage.',
+    'content stored on disk (HDD, SSD) persists for a period of time, until the disk media fails! This is considered permanent storage.',
   "advantages of a file":
-    'data is stored permanently, can be retrived and used as input to a processing operation.',
+    'data is stored permanently, can be retrieved and used as input to a processing operation.',
   "file object":
     'a <i>file object</i>, represents a reference or a file handle, which can be used to manipulate the file. A file object is returned by the open function,<p>fh = open("doc.txt", "w")',
   "file modes":
