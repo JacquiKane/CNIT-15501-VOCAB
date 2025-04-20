@@ -19,7 +19,7 @@ body h1 {
 
 .flip-card {
   background-color: transparent;
-  width: 200px;
+  flex: 0 0 200px;
   height: 200px;
   perspective: 1000px;
 }
@@ -72,6 +72,14 @@ body h1 {
   font-size:150%;
 }
 
+.flip-card-front img {
+  position: absolute;
+  top: 1px;
+  right : 1px;
+  width: 30px;
+  height: 50px;
+}
+
 .flip-card-back {
   background-color: #373a36;
   color: white;
@@ -91,10 +99,20 @@ body h1 {
   font-weight: bolder;
 }
 
+.card img {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 35px;
+  height: 50px;
+}
+
+
 .card:hover {
   scale: 1.05;
   box-shadow: black 5px 8px 8px;
 }
+
 
 table {
   border: 1px solid grey;
